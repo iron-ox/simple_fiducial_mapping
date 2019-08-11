@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<launch>
+  <arg name="camera" default="camera"/>
+
+  <node name="image_downsample" pkg="topic_tools" type="drop" args="$(arg camera)/image_rect 31 32 $(arg camera)/image_rect_downsampled" />
+
+  <node name="rosbag" pkg="rosbag" type="record" args="$(arg camera)/image_rect_downsampled $(arg camera)/camera_info $(arg camera)/tag_detections tf tf_static" />
+</launch>
+

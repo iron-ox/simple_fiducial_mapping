@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple_fiducial_mapping</name>
+  <version>0.0.0</version>
+  <description>Mapping and localization package that uses fiducials.</description>
+
+  <maintainer email="jon.binney@gmail.com">Jon Binney</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <test_depend>rosunit</test_depend>
+
+  <depend>apriltags2_ros</depend>
+  <depend>cv_bridge</depend>
+  <depend>geometry_msgs</depend>
+  <depend>libceres-dev</depend>
+  <depend>robot_localization</depend>
+  <depend>rosbag</depend>
+  <depend>roscpp</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  <depend>visualization_msgs</depend>
+  <depend>yaml-cpp</depend>
+  <depend>image_geometry</depend>
+  <depend>libopencv-dev</depend>
+  <exec_depend>image_proc</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+
+</package>

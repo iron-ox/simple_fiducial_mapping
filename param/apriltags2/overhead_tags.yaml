@@ -1,0 +1,146 @@
+# # Definitions of tags to detect
+#
+# All length in meters (not including white tag borders)
+#
+# standalone_tags:
+#   [
+#     {id: ID, size: SIZE, name: NAME},
+#     ...
+#   ]
+# Name is optional
+#
+# tag_bundles:
+#   [
+#     {
+#       name: 'CUSTOM_BUNDLE_NAME',
+#       layout:
+#         [
+#           {id: ID, size: SIZE, x: X_POS, y: Y_POS, z: Z_POS, qw: QUAT_W_VAL, qx: QUAT_X_VAL, qy: QUAT_Y_VAL, qz: QUAT_Z_VAL},
+#           ...
+#         ]
+#     },
+#     ...
+#   ]
+# Name is optional
+# x, y, z have default values of 0 thus they are optional
+# qw has default value of 1 and qx, qy, qz have default values of 0 thus they are optional
+
+standalone_tags:
+  [
+    # Small tags on plant lights
+    {id: 100, size: 0.16256},
+    {id: 101, size: 0.16256},
+    {id: 102, size: 0.16256},
+    {id: 103, size: 0.16256},
+    {id: 104, size: 0.16256},
+    {id: 105, size: 0.16256},
+    {id: 106, size: 0.16256},
+    {id: 107, size: 0.16256},
+    {id: 108, size: 0.16256},
+    {id: 109, size: 0.16256},
+    {id: 110, size: 0.16256},
+    {id: 111, size: 0.16256},
+    {id: 112, size: 0.16256},
+    {id: 113, size: 0.16256},
+    {id: 114, size: 0.16256},
+    {id: 115, size: 0.16256},
+    {id: 116, size: 0.16256},
+    {id: 117, size: 0.16256},
+    {id: 118, size: 0.16256},
+    {id: 119, size: 0.16256},
+    {id: 120, size: 0.16256},
+    {id: 121, size: 0.16256},
+    {id: 122, size: 0.16256},
+    {id: 123, size: 0.16256},
+    {id: 124, size: 0.16256},
+    {id: 125, size: 0.16256},
+    {id: 126, size: 0.16256},
+    {id: 127, size: 0.16256},
+    {id: 128, size: 0.16256},
+    {id: 129, size: 0.16256},
+    {id: 130, size: 0.16256},
+    {id: 131, size: 0.16256},
+    {id: 132, size: 0.16256},
+    {id: 133, size: 0.16256},
+    {id: 134, size: 0.16256},
+    {id: 135, size: 0.16256},
+    {id: 136, size: 0.16256},
+    {id: 137, size: 0.16256},
+    {id: 138, size: 0.16256},
+    {id: 139, size: 0.16256},
+    {id: 140, size: 0.16256},
+    {id: 141, size: 0.16256},
+    {id: 142, size: 0.16256},
+    {id: 143, size: 0.16256},
+    {id: 144, size: 0.16256},
+    {id: 145, size: 0.16256},
+    {id: 146, size: 0.16256},
+    {id: 147, size: 0.16256},
+    {id: 148, size: 0.16256},
+    {id: 149, size: 0.16256},
+    {id: 150, size: 0.16256},
+    {id: 151, size: 0.16256},
+    {id: 152, size: 0.16256},
+    {id: 153, size: 0.16256},
+    {id: 154, size: 0.16256},
+    {id: 155, size: 0.16256},
+    {id: 156, size: 0.16256},
+    {id: 157, size: 0.16256},
+    {id: 158, size: 0.16256},
+    {id: 159, size: 0.16256},
+
+    # Large tags on ceiling
+    {id: 0, size: 0.32512},
+    {id: 1, size: 0.32512},
+    {id: 2, size: 0.32512},
+    {id: 3, size: 0.32512},
+    {id: 4, size: 0.32512},
+    {id: 5, size: 0.32512},
+    {id: 6, size: 0.32512},
+    {id: 7, size: 0.32512},
+    {id: 8, size: 0.32512},
+    {id: 9, size: 0.32512},
+    {id: 10, size: 0.32512},
+    {id: 11, size: 0.32512},
+    {id: 12, size: 0.32512},
+    {id: 13, size: 0.32512},
+    {id: 14, size: 0.32512},
+    {id: 15, size: 0.32512},
+    {id: 16, size: 0.32512},
+    {id: 17, size: 0.32512},
+    {id: 18, size: 0.32512},
+    {id: 19, size: 0.32512},
+    {id: 20, size: 0.32512},
+    {id: 21, size: 0.32512},
+    {id: 22, size: 0.32512},
+    {id: 23, size: 0.32512},
+    {id: 24, size: 0.32512},
+    {id: 25, size: 0.32512},
+    {id: 26, size: 0.32512},
+    {id: 27, size: 0.32512},
+    {id: 28, size: 0.32512},
+    {id: 29, size: 0.32512},
+    {id: 30, size: 0.32512},
+    {id: 31, size: 0.32512},
+    {id: 32, size: 0.32512},
+    {id: 33, size: 0.32512},
+    {id: 34, size: 0.32512},
+    {id: 35, size: 0.32512},
+    {id: 36, size: 0.32512},
+    {id: 37, size: 0.32512},
+    {id: 38, size: 0.32512},
+    {id: 39, size: 0.32512},
+    {id: 40, size: 0.32512},
+    {id: 41, size: 0.32512},
+    {id: 42, size: 0.32512},
+    {id: 43, size: 0.32512},
+    {id: 44, size: 0.32512},
+    {id: 45, size: 0.32512},
+    {id: 46, size: 0.32512},
+    {id: 47, size: 0.32512},
+    {id: 48, size: 0.32512},
+    {id: 49, size: 0.32512}
+  ]
+tag_bundles:
+  [
+  ]

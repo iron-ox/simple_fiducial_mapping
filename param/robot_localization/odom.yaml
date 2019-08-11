@@ -1,0 +1,29 @@
+frequency: 30
+two_d_mode: true
+
+map_frame: map
+odom_frame: odom
+base_link_frame: base_link
+world_frame: odom
+
+odom0: odom
+odom0_config: [false, false, false,
+               false, false, false,
+               true, true, false,
+               false, false, true,
+               false, false, false]
+# TODO: measure rate of odom messages and decide if queue size is necessary
+
+use_control: true
+control_config: [true, true, false,
+                 false, false, true]
+# TODO: measure robot kinematics to determine these
+acceleration_limits: [1.0, 1.0, 0.0, 0.0, 0.0, 2.0]
+deceleration_limits: [1.0, 1.0, 0.0, 0.0, 0.0, 2.0]
+# TODO: determine if accel/decel gains are necessary
+
+smooth_lagged_data: true
+history_length: 5.0
+reset_on_time_jump: true
+
+print_diagnostics: true

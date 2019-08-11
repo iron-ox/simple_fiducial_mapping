@@ -1,0 +1,5 @@
+# We need https://github.com/dmalyuta/apriltags2_ros/pull/21
+- git: {
+    local-name: apriltags2_ros,
+    uri: "https://github.com/iron-ox/apriltags2_ros.git",
+    version: iron-master}
